@@ -13,7 +13,7 @@ The code has been tested on pytorch=1.3.1 and python 3.6, please refer to `requi
 
 **To test with images**
 
-`python test_CNN.py -bz 32 --test_list ./data_list/Deepfakes_c0_299.txt --model_path ./pretrained_model`
+`python detect_from_image.py --image_path ./videos/003_000.mp4 --model_path ./pretrained_model/df_c0_best.pkl -o ./output --cuda`
 
 **To train a model**
 
